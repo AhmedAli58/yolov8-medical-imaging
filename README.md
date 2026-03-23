@@ -1,5 +1,11 @@
 # YOLOv8 Medical Imaging
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.6.0-orange)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-8.4.25-purple)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.43.2-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 YOLOv8-based solution for medical image classification, detection and segmentation across three clinical domains.
 
 ---
@@ -14,6 +20,19 @@ YOLOv8-based solution for medical image classification, detection and segmentati
 
 ---
 
+## Sample Outputs
+
+### COVID-19 Classification
+![COVID-19 Classification](assets/covid_result.png)
+
+### Blood Cell Detection
+![Blood Cell Detection](assets/detection_result.png)
+
+### Breast Ultrasound Segmentation
+![Breast Ultrasound Segmentation](assets/segmentation_result.png)
+
+---
+
 ## Features
 
 - COVID-19 Classification — classifies chest X-rays as Normal, COVID-19, or Pneumonia
@@ -24,10 +43,15 @@ YOLOv8-based solution for medical image classification, detection and segmentati
 
 ## Tech Stack
 
-- YOLOv8 (Ultralytics)
-- PyTorch
-- Streamlit
-- OpenCV
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+
+- YOLOv8 (Ultralytics 8.4.25)
+- PyTorch 2.6.0
+- Streamlit 1.43.2
+- OpenCV 4.11.0
 - Python 3.12
 
 ---
@@ -57,8 +81,14 @@ yolov8-medical-imaging/
 │   ├── covid_cls.pt
 │   ├── bloodcells_det.pt
 │   └── breast_seg.pt
+├── assets/
+│   ├── covid_result.png
+│   ├── detection_result.png
+│   └── segmentation_result.png
 ├── app.py
 ├── requirements.txt
 └── README.md
 ```
+
+
 
